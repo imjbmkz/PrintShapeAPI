@@ -7,6 +7,13 @@ Allows users to draw shapes and calculate their area. The supported shapes are *
 - **Python 3.11.9**
 
 ### Install Dependencies
+Create and activate virtual environment on PowerShell.
+
+```bash
+python -m venv env
+.\env\Scripts\Activate.ps1
+```
+
 Install the necessary Python packages using `pip`:
 
 ```bash
@@ -20,7 +27,7 @@ pip install fastapi==0.115.6 requests==2.32.3 pytest==8.3.4
 To run the FastAPI application, use the following command:
 
 ```bash
-python main.py
+fastapi main.py
 ```
 
 The server will be available at:
